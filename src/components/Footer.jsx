@@ -40,7 +40,7 @@ const links = [
         <BsFillPersonLinesFill size={25} />
       </>
     ),
-    href: "/Moamin-AbuEwaida.pdf",
+    href: "/Moamin-cv-FS.pdf",
     download: true,
   },
 ];
