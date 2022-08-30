@@ -47,7 +47,7 @@ const links = [
 
 const Footer = () => {
   return (
-    <div className="h-20 w-full bg-gradient-to-b from-gray-800 to-black">
+    <div className="h-20 w-full bg-gradient-to-b from-gray-800 to-black border-t-[.5px] border-gray-400 pt-2">
       <div className="flex flex-row justify-between">
         <div className="flex flex-col justify-between ml-4 md:text-xs text-sm text-gray-400">
           <div className="flex flex-row items-center">
