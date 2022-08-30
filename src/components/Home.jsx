@@ -15,9 +15,13 @@ const Home = () => {
             I'm a full stack developer
           </h1>
           <p className="text-gray-500 py-4 max-w-md">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione
-            similique praesentium dignissimos quae blanditiis? Quisquam illum
-            earum voluptates illo praesentium.
+            I'm a passionate software developer who always looks to develop his
+            soft and technical skills through solving challenges and learning
+            new tricks to build up his knowledge and experiences.
+            <br />
+            I'm starting my new career in coding as a JavaScript fullstack
+            developer after graduating from Hack Your Future 9 months bootcamp
+            on January 2022.
           </p>
           <div>
             <Link

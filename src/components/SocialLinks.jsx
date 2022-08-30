@@ -39,7 +39,7 @@ const links = [
         Resume <BsFillPersonLinesFill size={30} />
       </>
     ),
-    href: "/resume.pdf",
+    href: "/Moamin-AbuEwaida.pdf",
     style: "rounded-br-md",
     download: true,
   },

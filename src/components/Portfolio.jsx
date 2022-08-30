@@ -1,41 +1,47 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import HYFscreen from "../assets/portfolio/HYF-screenshot.png";
+import weather from "../assets/portfolio/weather.png";
+import dash from "../assets/portfolio/dashboard.png";
+import port from "../assets/portfolio/portf.png";
+import food from "../assets/portfolio/Recipe.png";
+import crypto from "../assets/portfolio/crypto.png";
 
 const portfolios = [
   {
     id: 1,
-    src: arrayDestruct,
+    src: HYFscreen,
     web: "https://hyf-connect.herokuapp.com/pages/homepage/homepage.html",
+    code: "https://github.com/Moamin-AbuEwaida/hyf-connect",
   },
   {
     id: 2,
-    src: reactParallax,
-    web: "https://moamin-abuewaida.github.io/animated-website/",
+    src: port,
+    web: "https://moamin-abuewaida.github.io/portfolio-resp/",
+    code: "https://github.com/Moamin-AbuEwaida/portfolio-resp",
   },
   {
     id: 3,
-    src: navbar,
+    src: dash,
     web: "https://moamin-abuewaida.github.io/admin-dashboard/",
+    code: "https://github.com/Moamin-AbuEwaida/admin-dashboard",
   },
   {
     id: 4,
-    src: reactSmooth,
+    src: food,
     web: "https://food-rcp.herokuapp.com/",
+    code: "https://github.com/Moamin-AbuEwaida/Food-Recipe",
   },
   {
     id: 5,
-    src: installNode,
-    web: "https://moamin-abuewaida.github.io/js-weather-app/",
+    src: weather,
+    web: "https://moamin-abuewaida.github.io/react-weather-platform/",
+    code: "https://github.com/Moamin-AbuEwaida/react-weather-platform",
   },
   {
     id: 6,
-    src: reactWeather,
-    web: "https://moamin-abuewaida.github.io/chess-game/",
+    src: crypto,
+    web: "https://moamin-abuewaida.github.io/cryptocurrancy-tracker/",
+    code: "https://github.com/Moamin-AbuEwaida/cryptocurrancy-tracker",
   },
 ];
 
@@ -43,17 +49,17 @@ const Portfolio = () => {
   return (
     <div
       name="portfolio"
-      className="bg-gradient-to-b from-black to-gray-800 w-ful text-white md:h-screen"
+      className="bg-gradient-to-b from-black to-gray-800 w-ful h-full text-white md:h-screen"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="mt-32 md:mt-0">
+        <div>
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Portfolio
           </p>
           <p className="py-6">Check out some of my work here</p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src, web }) => (
+          {portfolios.map(({ id, src, web, code }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 className="rounded-md duration-200 hover:scale-105"
@@ -64,11 +70,13 @@ const Portfolio = () => {
                 <button
                   className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
                   onClick={() => window.open(web, "_blank")}
-                  target="_blank"
                 >
                   Demo
                 </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <button
+                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                  onClick={() => window.open(code, "_blank")}
+                >
                   Code
                 </button>
               </div>
