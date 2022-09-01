@@ -5,6 +5,8 @@ import dash from "../assets/portfolio/dashboard.png";
 import port from "../assets/portfolio/portf.png";
 import food from "../assets/portfolio/Recipe.png";
 import crypto from "../assets/portfolio/crypto.png";
+import Furni from "../assets/portfolio/Furni.png";
+import warehouse from "../assets/portfolio/warehouse.png";
 
 const portfolios = [
   {
@@ -42,6 +44,18 @@ const portfolios = [
     src: crypto,
     web: "https://moamin-abuewaida.github.io/cryptocurrancy-tracker/",
     code: "https://github.com/Moamin-AbuEwaida/cryptocurrancy-tracker",
+  },
+  {
+    id: 7,
+    src: warehouse,
+    web: "https://moamin-abuewaida.github.io/data-warehouse-platform/",
+    code: "https://github.com/Moamin-AbuEwaida/data-warehouse-platform",
+  },
+  {
+    id: 8,
+    src: Furni,
+    web: "https://moamin-abuewaida.github.io/furnitures-web-platform/",
+    code: "https://github.com/Moamin-AbuEwaida/furnitures-web-platform",
   },
 ];
 
