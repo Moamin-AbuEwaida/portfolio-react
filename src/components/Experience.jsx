@@ -9,6 +9,7 @@ import postgresql from "../assets/Postgresql.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import VueJS from "../assets/VueLogo.png";
+import SCSS from "../assets/sass.png";
 
 const techs = [
   {
@@ -25,21 +26,21 @@ const techs = [
   },
   {
     id: 3,
-    src: javascript,
-    title: "JavaScript",
-    style: "shadow-yellow-500",
-  },
-  {
-    id: 4,
-    src: nodejs,
-    title: "Node JS",
-    style: "shadow-green-600",
-  },
-  {
-    id: 5,
     src: tailwind,
     title: "Tailwind",
     style: "shadow-sky-400",
+  },
+  {
+    id: 4,
+    src: SCSS,
+    title: "SCSS",
+    style: "shadow-pink-400",
+  },
+  {
+    id: 5,
+    src: javascript,
+    title: "JavaScript",
+    style: "shadow-yellow-500",
   },
   {
     id: 6,
@@ -49,21 +50,29 @@ const techs = [
   },
   {
     id: 7,
+    src: VueJS,
+    title: "Vue JS",
+    style: "shadow-green-400",
+  },
+  {
+    id: 8,
+    src: nodejs,
+    title: "Node JS",
+    style: "shadow-green-600",
+  },
+
+  {
+    id: 9,
     src: postgresql,
     title: "PostgreSQL",
     style: "shadow-blue-300",
   },
+
   {
-    id: 8,
+    id: 10,
     src: github,
     title: "GitHub",
     style: "shadow-gray-400",
-  },
-  {
-    id: 9,
-    src: VueJS,
-    title: "Vue JS",
-    style: "shadow-green-400",
   },
 ];
 

@@ -39,7 +39,7 @@ const links = [
         Resume <BsFillPersonLinesFill size={30} />
       </>
     ),
-    href: "/Moamin-cv-FS.pdf",
+    href: "/MOAMIN-CV.pdf",
     style: "rounded-br-md",
     download: true,
   },
