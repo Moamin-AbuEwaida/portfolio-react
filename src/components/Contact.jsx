@@ -23,7 +23,7 @@ const Contact = () => {
               <span className="mr-1">
                 <HiOutlineMail />
               </span>
-              moamin.salamah@gmail.cim
+              moamin.salamah@gmail.com
             </div>
           </div>
 
