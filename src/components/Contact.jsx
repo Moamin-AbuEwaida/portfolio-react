@@ -1,5 +1,6 @@
 import React from "react";
-
+import { HiOutlineMail } from "react-icons/hi";
+import { MdPhoneIphone } from "react-icons/md";
 const Contact = () => {
   return (
     <div
@@ -11,7 +12,24 @@ const Contact = () => {
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Contact Me
           </p>
-          <p className="py-6">Submit the form below to get in touch with me</p>
+          <div className="flex flex-col items-center md:flex-row justify-around py-6 ">
+            <div className="flex flex-row items-center ">
+              <span className="mr-1">
+                <MdPhoneIphone />
+              </span>
+              +32 497.08.61.23
+            </div>
+            <div className="flex flex-row items-center ">
+              <span className="mr-1">
+                <HiOutlineMail />
+              </span>
+              moamin.salamah@gmail.cim
+            </div>
+          </div>
+
+          <p className="py-6 text-center">
+            Submit the form below to get in touch with me
+          </p>
         </div>
         <div className="flex justify-center items-center">
           <form

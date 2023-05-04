@@ -49,7 +49,7 @@ const Footer = () => {
   return (
     <div className="h-20 w-full bg-gradient-to-b from-gray-800 to-black border-t-[.5px] border-gray-400 pt-2">
       <div className="flex flex-row justify-between">
-        <div className="flex flex-col justify-between ml-4 md:text-xs text-sm text-gray-400">
+        <div className="flex flex-col justify-between ml-4 md:text-normal text-sm text-gray-400">
           <div className="flex flex-row items-center">
             <span className="mr-1">
               <MdOutlineLocationOn />
@@ -69,7 +69,7 @@ const Footer = () => {
             Arabic and English
           </div>
         </div>
-        <div className="mr-4 md:text-xs text-sm">
+        <div className="mr-4 md:text-normal text-sm">
           <p className="text-gray-400 text-center mb-2">Social Links</p>
           <ul className="flex flex-row">
             {links.map(({ id, child, href, download }) => (
