@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.3dbd86b5.css",
-    "main.js": "/portfolio-react/static/js/main.139c9d2e.js",
-    "static/media/mogImage.jpg": "/portfolio-react/static/media/mogImage.644eae65557210b56750.jpg",
+    "main.css": "/portfolio-react/static/css/main.dadf0339.css",
+    "main.js": "/portfolio-react/static/js/main.355eda06.js",
     "static/media/weather.png": "/portfolio-react/static/media/weather.67c1c7ca3a7f42599429.png",
     "static/media/Furni.png": "/portfolio-react/static/media/Furni.c3ac8cca545ef2ca8716.png",
+    "static/media/MOGai1.jpg": "/portfolio-react/static/media/MOGai1.f7d907c435fa1a123124.jpg",
     "static/media/portf.png": "/portfolio-react/static/media/portf.6e15d1aef22642327093.png",
     "static/media/dashboard.png": "/portfolio-react/static/media/dashboard.83713d47a2ca3265850d.png",
     "static/media/Recipe.png": "/portfolio-react/static/media/Recipe.84ac44646ffac138c891.png",
@@ -13,19 +13,21 @@
     "static/media/Postgresql.png": "/portfolio-react/static/media/Postgresql.346709d92d82791ad17d.png",
     "static/media/crypto.png": "/portfolio-react/static/media/crypto.4eb206e035e3066dd0bd.png",
     "static/media/sass.png": "/portfolio-react/static/media/sass.5f5099882d7677b0abeb.png",
+    "static/media/wordpressLOGO.webp": "/portfolio-react/static/media/wordpressLOGO.51915fb37b9e76913fc4.webp",
     "static/media/react.png": "/portfolio-react/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/node.png": "/portfolio-react/static/media/node.952a9ea986dcfa5229ad.png",
     "static/media/github.png": "/portfolio-react/static/media/github.3b9e32903aa89111875d.png",
     "static/media/html.png": "/portfolio-react/static/media/html.2ba4fabc69a89a8f71e6.png",
     "static/media/tailwind.png": "/portfolio-react/static/media/tailwind.e47ac876b8d4d0bba47a.png",
     "static/media/css.png": "/portfolio-react/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/odoooLOGO.png": "/portfolio-react/static/media/odoooLOGO.48d468fdbf261bb27a82.png",
     "static/media/javascript.png": "/portfolio-react/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portfolio-react/index.html",
-    "main.3dbd86b5.css.map": "/portfolio-react/static/css/main.3dbd86b5.css.map",
-    "main.139c9d2e.js.map": "/portfolio-react/static/js/main.139c9d2e.js.map"
+    "main.dadf0339.css.map": "/portfolio-react/static/css/main.dadf0339.css.map",
+    "main.355eda06.js.map": "/portfolio-react/static/js/main.355eda06.js.map"
   },
   "entrypoints": [
-    "static/css/main.3dbd86b5.css",
-    "static/js/main.139c9d2e.js"
+    "static/css/main.dadf0339.css",
+    "static/js/main.355eda06.js"
   ]
 }
