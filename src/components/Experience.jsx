@@ -10,6 +10,8 @@ import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import VueJS from "../assets/VueLogo.png";
 import SCSS from "../assets/sass.png";
+import Odoo from "../assets/odoooLOGO.png";
+import WPress from "../assets/wordpressLOGO.webp";
 
 const techs = [
   {
@@ -74,6 +76,18 @@ const techs = [
     title: "GitHub",
     style: "shadow-gray-400",
   },
+  {
+    id: 11,
+    src: WPress,
+    title: "WordPress",
+    style: "shadow-blue-400",
+  },
+  {
+    id: 12,
+    src: Odoo,
+    title: "Odoo",
+    style: "shadow-purple-400",
+  },
 ];
 
 const Experience = () => {
@@ -99,7 +113,7 @@ const Experience = () => {
                 style
               }
             >
-              <img className="w-20 mx-auto" src={src} alt="" />
+              <img className="w-10 h-10 mx-auto" src={src} alt={title} />
               <p className="mt-4">{title}</p>
             </div>
           ))}
