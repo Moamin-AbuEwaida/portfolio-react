@@ -10,8 +10,8 @@ import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import VueJS from "../assets/VueLogo.png";
 import SCSS from "../assets/sass.png";
-import Odoo from "../assets/odoooLOGO.png";
-import WPress from "../assets/wordpressLOGO.webp";
+import Odoo from "../assets/odooLOGO.png";
+import WPress from "../assets/wordpressLOGO.png";
 
 const techs = [
   {
@@ -113,7 +113,7 @@ const Experience = () => {
                 style
               }
             >
-              <img className="w-10 h-10 mx-auto" src={src} alt={title} />
+              <img className="w-16 h-16 mx-auto" src={src} alt={title} />
               <p className="mt-4">{title}</p>
             </div>
           ))}
