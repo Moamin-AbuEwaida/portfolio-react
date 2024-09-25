@@ -66,7 +66,7 @@ const Footer = () => {
             <span className="mr-1">
               <FaLanguage />
             </span>
-            Arabic and English
+            Arabic, English & French (B1)
           </div>
         </div>
         <div className="mr-4 md:text-normal text-sm">
