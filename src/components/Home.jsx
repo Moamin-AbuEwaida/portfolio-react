@@ -13,7 +13,7 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 pt-12 md:flex-row md:justify-between">
         <div className="flex flex-col justify-center h-full mt-24">
           <h1 className="text-4xl sm:text-7xl font-bold text-white">
-            I'm a full stack developer
+            I'm a Frontend developer
           </h1>
           <p className="text-gray-500 py-4 max-w-md">
             I'm a passionate software developer who always looks to develop his
