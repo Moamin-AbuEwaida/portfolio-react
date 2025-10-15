@@ -1,17 +1,19 @@
 {
   "files": {
     "main.css": "/portfolio-react/static/css/main.2760527c.css",
-    "main.js": "/portfolio-react/static/js/main.97ca58d4.js",
+    "main.js": "/portfolio-react/static/js/main.6a0016ac.js",
     "static/media/weather.png": "/portfolio-react/static/media/weather.67c1c7ca3a7f42599429.png",
+    "static/media/FoodDelivery.png": "/portfolio-react/static/media/FoodDelivery.1d990625112928ac9bbc.png",
     "static/media/Furni.png": "/portfolio-react/static/media/Furni.c3ac8cca545ef2ca8716.png",
     "static/media/MOGai1.jpg": "/portfolio-react/static/media/MOGai1.f7d907c435fa1a123124.jpg",
     "static/media/portf.png": "/portfolio-react/static/media/portf.6e15d1aef22642327093.png",
+    "static/media/Impact.png": "/portfolio-react/static/media/Impact.c5615baf696f049a82f8.png",
     "static/media/dashboard.png": "/portfolio-react/static/media/dashboard.83713d47a2ca3265850d.png",
+    "static/media/Ecommarce.png": "/portfolio-react/static/media/Ecommarce.1141f295de170fbcdb84.png",
     "static/media/Recipe.png": "/portfolio-react/static/media/Recipe.84ac44646ffac138c891.png",
     "static/media/warehouse.png": "/portfolio-react/static/media/warehouse.714f493711172838a31f.png",
     "static/media/HYF-screenshot.png": "/portfolio-react/static/media/HYF-screenshot.f894f98680926feffeb3.png",
     "static/media/Postgresql.png": "/portfolio-react/static/media/Postgresql.346709d92d82791ad17d.png",
-    "static/media/crypto.png": "/portfolio-react/static/media/crypto.4eb206e035e3066dd0bd.png",
     "static/media/sass.png": "/portfolio-react/static/media/sass.5f5099882d7677b0abeb.png",
     "static/media/react.png": "/portfolio-react/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/node.png": "/portfolio-react/static/media/node.952a9ea986dcfa5229ad.png",
@@ -24,10 +26,10 @@
     "static/media/javascript.png": "/portfolio-react/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portfolio-react/index.html",
     "main.2760527c.css.map": "/portfolio-react/static/css/main.2760527c.css.map",
-    "main.97ca58d4.js.map": "/portfolio-react/static/js/main.97ca58d4.js.map"
+    "main.6a0016ac.js.map": "/portfolio-react/static/js/main.6a0016ac.js.map"
   },
   "entrypoints": [
     "static/css/main.2760527c.css",
-    "static/js/main.97ca58d4.js"
+    "static/js/main.6a0016ac.js"
   ]
 }
